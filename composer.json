@@ -1,5 +1,5 @@
 {
-    "name": "appitized/bedrock",
+    "name": "appitized/remember",
     "type": "library",
     "description": "Core project files",
     "keywords": [
@@ -14,7 +14,14 @@
             "role": "Developer"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/appitized/optimus"
+        }
+    ],
     "require": {
+        "appitized/optimus": "dev-master",
         "illuminate/support": "~5.1",
         "php" : ">=5.6.0",
         "ramsey/uuid": "^3.0"
