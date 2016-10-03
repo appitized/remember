@@ -33,7 +33,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Appitized\\Bedrock\\": "src"
+            "Appitized\\Remember\\": "src"
         }
     },
     "scripts": {
